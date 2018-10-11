@@ -1,7 +1,7 @@
 {
   "name": "graphql-start",
   "version": "1.0.0",
-  "description": "This is a graphql based API that resolves using a REST API that uses JWT Authentication",
+  "description": "This is a graphql bridging a RESTFUL API that uses JWT Authentication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

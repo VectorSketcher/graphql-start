@@ -1,7 +1,7 @@
 {
-  "name": "graphql-user-api",
+  "name": "graphql-test",
   "version": "1.0.0",
-  "description": "This is a graphql based API that resolves using a REST API. The purpose of this repo is to show how devs and organizations can start using graphql with the least effort possible and no re-writing their existing infrastructure.",
+  "description": "This is a graphql is bridging to a REST API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeynimu/graphql-user-api.git"
+    "url": "git+https://github.com/vectorsketcher/graphql-start.git"
   },
   "author": "Joe Ng'ethe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joeynimu/graphql-user-api/issues"
+    "url": "https://github.com/phql-start/issues"
   },
-  "homepage": "https://github.com/joeynimu/graphql-user-api#readme",
+  "homepage": "https://github.com/phql-start#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",

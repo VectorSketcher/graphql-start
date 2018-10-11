@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "graphql-start",
   "version": "1.0.0",
   "description": "This is a graphql bridging a RESTFUL API that uses JWT Authentication",
+=======
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "This is a graphql is bridging to a REST API.",
+>>>>>>> 5cce1e7e69e60f30ab22f863cb6b3de5ed58ede7
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +15,24 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/VectorSketcher/graphql-start.git"
+=======
+    "url": "git+https://github.com/vectorsketcher/graphql-start.git"
+>>>>>>> 5cce1e7e69e60f30ab22f863cb6b3de5ed58ede7
   },
   "author": "michelle test",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/vectosketcher/graphql-start/issues"
   },
   "homepage": "https://github.com/vectosketcher/graphql-start/#readme",
+=======
+    "url": "https://github.com/phql-start/issues"
+  },
+  "homepage": "https://github.com/phql-start#readme",
+>>>>>>> 5cce1e7e69e60f30ab22f863cb6b3de5ed58ede7
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",

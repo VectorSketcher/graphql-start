@@ -47,9 +47,30 @@ const PersonType = new GraphQLObjectType({
   })
 });
 
-const AuthTOken = new GraphQLObjectType({ 
+const AuthToken = new GraphQLObjectType({ 
+  name: 'Auth_Token',
+  description: 'Borrower Token',
+  fields: () => ({
+    accessToken: {
+      type: GraphQLList(GraphQLString),
+      description: 'GUID Token',
+      resolve: (auth_token) => auth_token.accessToken
+    }    
+  })
 
 });
+
+const QueryType = new GraphQLObjectType({
+  name: 'Mutation',
+  description: 'Post',
+  fields: () => ({
+    Authenticate: {
+      type: new GraphQLString(AuthToken),
+      description: 'Borrower Token',
+      resolve: (root, args) => postMessage('${BASE_URL2}/authapi/authenticate/')
+    }
+  })
+})
 
 const QueryType = new GraphQLObjectType({
   name: 'Query',
